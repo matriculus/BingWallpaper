@@ -2,13 +2,6 @@ import requests
 from urllib import parse
 import os
 
-"""
-background-image: url(/th?id=OHR.Inisheer_EN-IN7964243509_1920x1080.jpg&rf=LaDigue_1920x1080.jpg); opacity: 1;
-
-https://www.bing.com/?toWww=1&redig=B8E0C6151AAD4A94B8FDB35060E102B7
-
-"""
-
 filename = "BingWallpaper"
 i = 0
 while os.path.exists(filename + f"{i}.jpg"):
